@@ -16,7 +16,7 @@ eureka:
 #spring:
 #  profiles: item1
 server:
-  port: 8001
+  port: 8002
 
 #---
 #spring:
