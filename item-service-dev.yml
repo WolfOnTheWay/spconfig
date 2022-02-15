@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: item-service
+#
+#server:
+#  port: 8001
+
+eureka:
+  client:
+    service-url:
+      # 同时向两台服务器进行注册
+      defaultZone: http://127.0.0.1:2001/eureka,http://127.0.z0.1:2002/eureka
+
+
+#---
+#spring:
+#  profiles: item1
+server:
+  port: 8001
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+sp:
+  name: 123
+#---
+#spring:
+#  profiles: item2
+#server:
+#  port: 8002
