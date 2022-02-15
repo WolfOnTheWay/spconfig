@@ -23,7 +23,7 @@ management:
       exposure:
         include: refresh
 sp:
-  name: 123
+  name: 456
 #---
 #spring:
 #  profiles: item2
