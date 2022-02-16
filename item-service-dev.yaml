@@ -28,7 +28,7 @@ management:
       exposure:
         include: refresh
 sp:
-  name: 456
+  name: 789
 #---
 #spring:
 #  profiles: item2
